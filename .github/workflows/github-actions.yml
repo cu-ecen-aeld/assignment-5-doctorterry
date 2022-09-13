@@ -11,7 +11,7 @@ jobs:
             run: git submodule update --init --recursive
           - uses: webfactory/ssh-agent@v0.5.3
             with:
-                ssh-private-key: ${{ Apocalypse }}
+                ssh-private-key: ${{ SSH_PRIVATE_KEY }}
           - name: Run full test
             env:
               GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
