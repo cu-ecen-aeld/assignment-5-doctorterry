@@ -1,5 +1,6 @@
 
 config BR2_PACKAGE_AESD_CHAR_DEVICE
 	bool "aesd-char-device"
+	depends on BR2_LINUX_KERNEL
 	help
 	  Includes the aesdchar device module in the kernel image.
