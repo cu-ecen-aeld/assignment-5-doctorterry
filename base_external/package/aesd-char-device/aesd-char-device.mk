@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-AESD_CHAR_DEVICE_VERSION = 44e2b8f8d673e551cad592e21e9d2037348498fa
+AESD_CHAR_DEVICE_VERSION = ef5ca46fc3b4642e7822dc8b6ee062318db5c6b3
 AESD_CHAR_DEVICE_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-doctorterry.git
 AESD_CHAR_DEVICE_SITE_METHOD = git
 AESD_CHAR_DEVICE_GIT_SUBMODULES = YES
